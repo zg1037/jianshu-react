@@ -1,0 +1,46 @@
+.home {
+    width: 960px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.home_left {
+    margin-left: 15px;
+    padding-top: 30px;
+    width: 625px;
+    float: left;
+}
+.home_right{
+    padding-top: 30px;
+    width: 240px;
+    float: right;
+}
+.banner_img{
+    width: 625px;
+    height: 270px;
+}
+/*topic*/
+.topic{
+    padding: 20px 0 10px 0;
+    font-size: 14px;
+    overflow: hidden;
+}
+
+.topicimg{
+    display: block;
+    float: left;
+    width: 32px;
+    height: 32px;
+    margin-right: 8px;
+}
+
+.topic ul li{
+    float: left;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #dcdcdc;
+    overflow: hidden;
+    background: #f7f7f7;
+    margin:0 20px 20px 0;
+}

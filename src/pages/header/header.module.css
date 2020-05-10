@@ -1,0 +1,202 @@
+.header_info {
+    height: 58px;
+    line-height: 58px;
+    width: 100%;
+    background: #ffffff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 1570px;
+    box-shadow: 5px 2px 5px #cccccc;
+    z-index: 999;
+}
+
+.navbar {
+    position: relative;
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.title {
+    float: left;
+    text-align: center;
+    font-size: 24px;
+    color: rgb(244, 111, 90);
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/*中间*/
+.container {
+    width: 80%;
+    height: 58px;
+    margin-left: 200px;
+    font-size: 18px;
+}
+
+.iconcolor {
+    color: rgb(244, 111, 90);
+}
+
+.iconsize {
+    font-size: 16px !important;
+    margin-right: 5px;
+}
+
+.iconsize_1{
+    font-size: 12px!important;
+    margin-right: 5px;
+    transform-origin: center center;
+    transition: all .2s ease-in;
+    display: inline-block;
+
+}
+
+.iconbackground {
+    background: #cccccc;
+}
+
+.left li {
+    width: 100px;
+    float: left;
+}
+
+.gb {
+    margin-left: 10px;
+    height: 25px;
+    padding: 6px 46px 6px 20px;
+    border-radius: 18px;
+    border: none;
+    background-color: #eeeeee;
+    font-size: 14px;
+    width: 180px;
+    outline: none;
+    color: #777777;
+}
+
+.focused {
+    margin-left: 10px;
+    height: 25px;
+    padding: 6px 46px 6px 20px;
+    border-radius: 18px;
+    border: none;
+    background-color: #eeeeee;
+    font-size: 14px;
+    width: 240px;
+    outline: none;
+    color: #777777;
+}
+
+.spaninput {
+    position: relative;
+}
+
+
+.searchInfo {
+    position: absolute;
+    left: 15px;
+    top: 40px;
+    width: 240px;
+    padding: 0 20px;
+    border: 1px solid #f0f0f0;
+    box-shadow: 0 0 8px rgba(0,0,0,.2);
+    z-index: 999;
+}
+
+.searchInfo::before{
+    content: "";
+    position: absolute;
+    top: -24px;
+    left: 0px;
+    width: 0;
+    height: 0;
+    border: 15px solid;
+    border-color: transparent transparent #ffffff;
+}
+.searchTitle{
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: #969696;
+    line-height: 20px;
+}
+
+.switch{
+    float: right;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.searchTag{
+  font-size: 12px;
+}
+
+.searchTag li{
+    float: left;
+    height: 10px;
+    line-height: 10px;
+    text-align: center;
+    width: 30px;
+    border: 1px solid #cccccc;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    padding: 5px;
+    cursor: pointer;
+    color: #787878;
+}
+
+.inputSearch {
+    position: absolute;
+    top: 0px;
+    right: 5px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+/*右边*/
+.right {
+    margin-right: 100px;
+    float: right;
+    text-align: center;
+}
+
+
+.right li {
+    width: 100px;
+    float: left;
+}
+
+.login {
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    width: 100px;
+    height: 38px;
+    line-height: 38px;
+    border: 1px solid rgb(244, 111, 90);
+    text-align: center;
+    border-radius: 18px;
+    color: rgb(244, 111, 90);
+    margin: 0 39px;
+}
+
+.writer {
+    position: absolute;
+    top: 10px;
+    right: -35px;
+    width: 100px;
+    height: 38px;
+    line-height: 38px;
+    border: 1px solid rgb(244, 111, 90);
+    text-align: center;
+    border-radius: 18px;
+    color: #ffffff;
+    background: rgb(244, 111, 90);
+}
+
+
+
